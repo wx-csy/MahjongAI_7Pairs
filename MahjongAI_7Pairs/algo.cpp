@@ -26,6 +26,7 @@ void ActionAfterPick(tile T){
 		return;
 	}
 	PushTile(T);
+	
 	mint=*Hand.begin();
 	minc=RTiles[mint.color][mint.number];
 	for (vit it=Hand.begin();it!=Hand.end();it++){
@@ -47,7 +48,7 @@ void ActionAfterMOut(tile T){
 		Hu();
 		return;
 	}
-	cout<<"pass"<<endl;
+	Pass();
 }
 
 
