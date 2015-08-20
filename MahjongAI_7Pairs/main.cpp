@@ -17,7 +17,7 @@ using namespace std;
 #include "algo.cpp"
 
 // AI 7_Pairs
-// ver beta 
+// ver alpha 
 
 int main(){
 	

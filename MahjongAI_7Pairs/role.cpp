@@ -72,7 +72,7 @@ void Gaming(){
 		if (str=="mjgang"){
 			cin>>a>>ntile;
 			AppearTile(MakeTile(ntile));
-			Pass(); 
+			if (TestHu(MakeTile(ntile))) QiangGang();
 		}
 		if (str=="mhu"){
 			cin>>a>>b>>c;

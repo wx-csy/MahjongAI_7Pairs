@@ -1,6 +1,2 @@
-[VERSION beta]
-FIX a bug not sending pass when mjgang.
-FIX some inessential bugs.
-
 [VERSION alpha]
-CREATE this AI.
+CREATE this AI
